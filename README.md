@@ -3,9 +3,9 @@
 ## Atualizar o repositório remoto
 
 ```bash
-cd /home/runner/work/leis-decretos-rj-app/leis-decretos-rj-app
+cd /caminho/para/leis-decretos-rj-app
 git remote rename origin old-origin
-git remote add origin https://github.com/SEU_USUARIO/leis-decretos-rj-app.git
+git remote add origin https://github.com/<SEU_USUARIO>/leis-decretos-rj-app.git
 git push -u origin --all
 git push origin --tags
 ```
