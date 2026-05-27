@@ -671,6 +671,27 @@ img { max-width: 100%; display: block; }
 
 .footer p { font-size: 0.8rem; color: var(--muted); }
 
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links-btn {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--gray);
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: border-color var(--transition), background var(--transition);
+}
+.footer-links-btn:hover { border-color: var(--red); background: rgba(224,28,46,0.1); }
+
 .footer-ig {
   font-family: var(--font-head);
   font-size: 0.9rem;
