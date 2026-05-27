@@ -16,7 +16,7 @@ mobileMenu.querySelectorAll('a').forEach(link => {
 
 // Fade-up animation on scroll
 const fadeEls = document.querySelectorAll(
-  '.card, .badge, .stat, .dep-card, .gal-item, .credenciais li, .contato-link'
+  '.card, .badge, .stat, .dep-card, .gal-item, .credenciais li, .contato-link, .step'
 );
 const observer = new IntersectionObserver(
   entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
